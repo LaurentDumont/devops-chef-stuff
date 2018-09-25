@@ -1,0 +1,20 @@
+{
+   "name": "prometheus_node",
+   "description": "Install the Prometheus node-exporter bin.",
+   "json_class": "Chef::Role",
+   "default_attributes": {
+     "chef_client": {
+       "interval": 60,
+       "splay": 1
+     }
+   },
+   "override_attributes": {
+   },
+   "chef_type": "role",
+   "run_list": ["recipe[chef-client::default]",
+                "recipe[chef-client::delete_validation]",
+                "recipe[prometheus_node::default]"
+   ],
+   "env_run_lists": {
+   }
+}

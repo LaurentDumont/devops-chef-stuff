@@ -1,6 +1,6 @@
-recipe ---> Contains ressources which describe the state of the system.
-Ressources --> Contains actions that act upon the system. You do not tell Chef the "HOW" you tell it that "WHAT".
-Ressources Default Action --> If no action is specified, a default action is chosen. Valid for reach ressource within the recipe.
+recipe ---> Contains ressources which describe the state of the system.  
+Ressources --> Contains actions that act upon the system. You do not tell Chef the "HOW" you tell it that "WHAT".  
+Ressources Default Action --> If no action is specified, a default action is chosen. Valid for reach ressource within the recipe.  
 
 Commands:
 * chef generate cookbook cookbooks/learn_chef_apache2
